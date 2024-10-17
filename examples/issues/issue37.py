@@ -1,5 +1,5 @@
-from cursesmenu import CursesMenu
-from cursesmenu.items.submenu_item import SubmenuItem
+from cursesmenu import *
+from cursesmenu.items import *
 
 menu = CursesMenu("Title", "Subtitle")
 selection_menu = CursesMenu.make_selection_menu([f"item{i}" for i in range(20)])
